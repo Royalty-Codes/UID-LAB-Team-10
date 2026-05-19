@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova 2026 - Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TechNova 2026</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="feedback.html" class="active">Feedback</a>
+        </nav>
+    </header>
+    <main>
+        <div class="panel">
+            <h2>Share Your Experience</h2>
+            <form id="feedbackForm" class="form-grid">
+                <div class="form-group"><label>Student Name</label><input type="text" id="fbName" required></div>
+                <div class="form-group"><label>Register Number</label><input type="text" id="fbReg" required></div>
+                <div class="form-group"><label>Event Attended</label>
+                    <select id="fbEvent" required>
+                        <option value="">Select Event</option>
+                        <option value="Coding Contest">Coding Contest</option>
+                        <option value="Project Expo">Project Expo</option>
+                        <option value="Quiz">Quiz</option>
+                        <option value="Hackathon">Hackathon</option>
+                        <option value="Valorant Tournament">Valorant Tournament</option>
+                    </select>
+                </div>
+                <div class="form-group"><label>Rating</label>
+                    <select id="rating" required>
+                        <option value="">Select Rating</option>
+                        <option value="1">1 - Poor</option>
+                        <option value="2">2 - Fair</option>
+                        <option value="3">3 - Good</option>
+                        <option value="4">4 - Very Good</option>
+                        <option value="5">5 - Excellent</option>
+                    </select>
+                </div>
+                <div class="form-group full-width"><label>Comments (Min 20 chars)</label><textarea id="comments" required></textarea></div>
+                <div class="form-group full-width"><button type="submit">Submit Feedback</button></div>
+            </form>
+            <div id="feedbackMessage" class="message"></div>
+        </div>
+
+        <div class="panel">
+            <h2>Feedback Summary</h2>
+            <p>Average Rating: <span id="avgRating">0.00</span> / 5</p>
+            <div id="feedbackSummary" style="margin-top:15px;"></div>
+        </div>
+    </main>
+    <footer>© 2026 TechNova Symposium. All rights reserved.</footer>
+    <script src="script.js"></script>
+</body>
+</html>
