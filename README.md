@@ -1,2 +1,7 @@
 # UID-LAB-Team-10
-Roll Numbers: Roydon (BL.AI.U4AID24059), Satya (BL.AI.U4AID24063), Prithvi (BL.AI.U4AID24076)
+Team number : 10
+Roll Numbers: 
+Roydon Rodrigues Vilber (BL.AI.U4AID24059), 
+Satya Srinivas Paladugu (BL.AI.U4AID24063), 
+Prithvi S (BL.AI.U4AID24076)
+
